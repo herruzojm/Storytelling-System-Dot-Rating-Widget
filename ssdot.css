@@ -8,8 +8,7 @@
     padding: 0px;
 }
 
-.ss-dot {
-    cursor: pointer;
+.ss-dot {    
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -48,4 +47,12 @@
 
 .ss-dot-xmark.ss-dot-marked {
     background-image: url(xmark.svg);
+}
+
+.clickclable {
+    cursor: pointer;
+}
+
+.readonly {
+    cursor: default;
 }
