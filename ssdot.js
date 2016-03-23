@@ -23,6 +23,7 @@
             element.children(".ss-dot").slice(0, value).addClass("ss-dot-marked");
             element.data("dot-value", value);
         } else {
+            element.children(".ss-dot").slice(0, element.data("dot-min")).css("background-color", element.data("dot-color-marked"));
             element.children(".ss-dot").slice(0, element.data("dot-min")).addClass("ss-dot-marked");
             element.data("dot-value", element.data("dot-min"));
         }
